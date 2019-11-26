@@ -1,23 +1,10 @@
 pipeline {
-  agent any
-  tools {
-    gradle 'Default'
-  }
-  stages {
-    stage("Build") {
-      steps {
-        echo "building..."
-      }
+    agent { docker { image 'maven:3.3.3' } }
+    stages {
+        stage('build') {
+            steps {
+                sh 'mvn --version'
+            }
+        }
     }
-    stage("Test") {
-      steps {
-        echo "testing..."
-      }
-    }
-    stage("Package") {
-      steps {
-        echo "packaging..."
-      }
-    }
-  }
 }

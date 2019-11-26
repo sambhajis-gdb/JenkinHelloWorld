@@ -13,6 +13,7 @@ The [Closure Compiler](https://developers.google.com/closure/compiler/) is a too
    - [NPM](https://www.npmjs.com/package/google-closure-compiler)
  * [Use the JavaScript version](https://github.com/google/closure-compiler-js), with no Java dependency
  * See the [Google Developers Site](https://developers.google.com/closure/compiler/docs/gettingstarted_app) for documentation including instructions for running the compiler from the command line.
+ 
 
 ## Options for Getting Help
 1. Post in the [Closure Compiler Discuss Group](https://groups.google.com/forum/#!forum/closure-compiler-discuss)
